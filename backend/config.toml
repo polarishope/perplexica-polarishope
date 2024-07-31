@@ -1,0 +1,11 @@
+[GENERAL]
+PORT = 10002 # Port to run the server on
+SIMILARITY_MEASURE = "cosine" # "cosine" or "dot"
+
+[API_KEYS]
+OPENAI = "test-openai-key" # Change to your OPENAI KEY
+GROQ = "" # Groq API key 
+
+[API_ENDPOINTS]
+SEARXNG = "http://localhost:4000" 
+OLLAMA = "" # Ollama API URL - http://host.docker.internal:11434
